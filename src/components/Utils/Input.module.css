@@ -1,0 +1,11 @@
+.input {
+ display: flex;
+ align-items: center;
+ gap: .3rem;
+}
+.input input {
+    padding-left: 3px;
+}
+.input label {
+    font-weight: 600;
+}

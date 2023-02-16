@@ -1,0 +1,12 @@
+.card {
+  background-color: white;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 37.5rem) {
+  .card {
+    padding: .7rem 1.2rem;
+  }
+}

@@ -1,0 +1,18 @@
+.meals {
+    width: 70vw;
+    padding: 2rem 3rem;
+    margin-inline: auto;
+}
+
+@media screen and (max-width:64rem) {
+    .meals {
+        width: 85vw;
+    }
+}
+
+@media (max-width: 37.5rem) {
+    .meals {
+        width: 100vw;
+        padding: .8rem 1.3rem;
+    }
+}

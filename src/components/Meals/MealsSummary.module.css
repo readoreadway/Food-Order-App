@@ -1,0 +1,31 @@
+.section {
+  width: 45vw;
+  padding: 1.5rem 2.5rem;
+  text-align: center;
+  color: white;
+  margin-inline: auto;
+  margin-top: -9rem;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 1rem;
+  background-color: #3f3f3f;
+  position: relative;
+}
+.section h2 {
+  margin: 1rem auto;
+}
+.section p {
+    margin: .5rem auto;
+}
+
+@media screen and (max-width: 64rem) {
+  .section {
+    width: 70vw;
+  }
+}
+
+@media (max-width: 37.5rem) {
+  .section {
+    width: 90vw;
+    padding: 1rem 1.5rem;
+  }
+}

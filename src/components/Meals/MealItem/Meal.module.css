@@ -1,0 +1,29 @@
+.meal {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: .2px solid rgba(185, 182, 182, 0.687);
+}
+.meal .description{
+    font-style: italic;
+}
+
+.meal .price {
+    color: #c13b06;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+@media (max-width: 37.5rem) {
+    .meal {
+        padding: .5rem 0;
+        width: 100%;
+    }
+    .meal .description {
+        font-size: .85rem;
+    }
+    .meal .price {
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,25 @@
+.form {
+    text-align: right;
+}
+.form button {
+    background: #8a2b06;
+    color: white;
+    padding: .5rem 2rem;
+    font-weight: 600;
+    outline: none;
+    border: 1px solid #8a2b06;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+.form button:hover {
+    background: #641e03;
+}
+
+@media (max-width: 37.5rem) {
+    .form button {
+        padding: .3rem 1rem;
+    }
+    .form label {
+        font-size: .85rem;
+    }
+}
